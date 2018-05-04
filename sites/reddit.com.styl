@@ -31,12 +31,24 @@
 div.md
     color()
 
+    ul,
+    ol
+        background-color()
+        li:nth-child(odd)
+            background-color highlight
+
 body.comment
     background-color()
 
 .commentarea
     > .usertext
         background-color()
+    .usertext-body
+        pre,
+        code,
+        p>code
+            background-color highlight
+            color color-text !important
     .menuarea
         background-color()
 
