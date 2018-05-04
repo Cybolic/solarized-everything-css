@@ -1,0 +1,91 @@
+* {
+  border-color: #800080 !important;
+}
+a {
+  color: #5f87af !important;
+}
+a:visited {
+  color: #87af87 !important;
+}
+body {
+  background-color: #262626 !important;
+  color: #bcbcbc !important;
+}
+html {
+  background-color: #262626 !important;
+}
+input,
+textarea {
+  background-color: #272727 !important;
+  color: #bcbcbc !important;
+}
+blockquote,
+pre {
+  background-color: #272727 !important;
+  color: #bcbcbc !important;
+}
+.soft-black,
+.navy-700 {
+  color: #bcbcbc !important;
+}
+.fill-soft-black {
+  color: #bcbcbc !important;
+  fill: #bcbcbc !important;
+}
+.bg-white,
+.bg-grey-100 {
+  background-color: #262626 !important;
+}
+.grey-dark {
+  color: #585858 !important;
+}
+.responsive-media figcaption {
+  color: #00f !important;
+}
+.grid-post__date,
+.grid-post__content,
+.grid-post__metadata {
+  color: #bcbcbc !important;
+}
+.featured-project__blurb {
+  color: #00f !important;
+}
+.featured-project__blurb.ratio-16-9:after {
+  background: -moz-linear-gradient(left, rgba(38,38,38,0) 0%, #262626 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(38,38,38,0)), color-stop(50%, #262626));
+  background: -webkit-linear-gradient(left, rgba(38,38,38,0) 0%, #262626 50%);
+  background: -o-linear-gradient(left, rgba(38,38,38,0) 0%, #262626 50%);
+  background: -ms-linear-gradient(left, rgba(38,38,38,0) 0%, #262626 50%);
+  background: linear-gradient(to right, rgba(38,38,38,0) 0%, #262626 50%);
+}
+.NS_projects__project_nav {
+  background-color: #262626 !important;
+}
+.NS_projects__project_nav .tabbed-nav__link {
+  border-color: #262626 !important;
+}
+.NS_projects__project_nav .tabbed-nav__link.is-active {
+  border-color: #444 !important;
+}
+.NS_projects__project_nav .selected-indicator {
+  background: #444;
+}
+.NS_campaigns__stats .icon-large {
+  fill: #bcbcbc;
+}
+body.posts .post_likes .namepile {
+  color: base1 !important;
+}
+#new_comment {
+  background-color: #272727 !important;
+}
+ol.list-comments .comment .main p {
+  color: #bcbcbc !important;
+}
+.link-soft-black {
+  color: #bcbcbc !important;
+}
+.section_footer-copyright .icon-large {
+  color: #bcbcbc !important;
+  fill: #bcbcbc;
+}

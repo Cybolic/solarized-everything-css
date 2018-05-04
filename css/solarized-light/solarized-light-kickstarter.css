@@ -1,0 +1,91 @@
+* {
+  border-color: #839496 !important;
+}
+a {
+  color: #268bd2 !important;
+}
+a:visited {
+  color: #6c71c4 !important;
+}
+body {
+  background-color: #fdf6e3 !important;
+  color: #657b83 !important;
+}
+html {
+  background-color: #fdf6e3 !important;
+}
+input,
+textarea {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+blockquote,
+pre {
+  background-color: #eee8d5 !important;
+  color: #657b83 !important;
+}
+.soft-black,
+.navy-700 {
+  color: #657b83 !important;
+}
+.fill-soft-black {
+  color: #657b83 !important;
+  fill: #657b83 !important;
+}
+.bg-white,
+.bg-grey-100 {
+  background-color: #fdf6e3 !important;
+}
+.grey-dark {
+  color: #93a1a1 !important;
+}
+.responsive-media figcaption {
+  color: #268bd2 !important;
+}
+.grid-post__date,
+.grid-post__content,
+.grid-post__metadata {
+  color: #657b83 !important;
+}
+.featured-project__blurb {
+  color: #268bd2 !important;
+}
+.featured-project__blurb.ratio-16-9:after {
+  background: -moz-linear-gradient(left, rgba(253,246,227,0) 0%, #fdf6e3 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(253,246,227,0)), color-stop(50%, #fdf6e3));
+  background: -webkit-linear-gradient(left, rgba(253,246,227,0) 0%, #fdf6e3 50%);
+  background: -o-linear-gradient(left, rgba(253,246,227,0) 0%, #fdf6e3 50%);
+  background: -ms-linear-gradient(left, rgba(253,246,227,0) 0%, #fdf6e3 50%);
+  background: linear-gradient(to right, rgba(253,246,227,0) 0%, #fdf6e3 50%);
+}
+.NS_projects__project_nav {
+  background-color: #fdf6e3 !important;
+}
+.NS_projects__project_nav .tabbed-nav__link {
+  border-color: #fdf6e3 !important;
+}
+.NS_projects__project_nav .tabbed-nav__link.is-active {
+  border-color: #e9e1c8 !important;
+}
+.NS_projects__project_nav .selected-indicator {
+  background: #e9e1c8;
+}
+.NS_campaigns__stats .icon-large {
+  fill: #657b83;
+}
+body.posts .post_likes .namepile {
+  color: #93a1a1 !important;
+}
+#new_comment {
+  background-color: #eee8d5 !important;
+}
+ol.list-comments .comment .main p {
+  color: #657b83 !important;
+}
+.link-soft-black {
+  color: #657b83 !important;
+}
+.section_footer-copyright .icon-large {
+  color: #657b83 !important;
+  fill: #657b83;
+}

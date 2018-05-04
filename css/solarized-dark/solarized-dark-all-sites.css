@@ -1066,6 +1066,71 @@ div.crp {
 #fbar {
   background-color: #073642 !important;
 }
+.soft-black,
+.navy-700 {
+  color: #839496 !important;
+}
+.fill-soft-black {
+  color: #839496 !important;
+  fill: #839496 !important;
+}
+.bg-white,
+.bg-grey-100 {
+  background-color: #002b36 !important;
+}
+.grey-dark {
+  color: #586e75 !important;
+}
+.responsive-media figcaption {
+  color: #268bd2 !important;
+}
+.grid-post__date,
+.grid-post__content,
+.grid-post__metadata {
+  color: #839496 !important;
+}
+.featured-project__blurb {
+  color: #268bd2 !important;
+}
+.featured-project__blurb.ratio-16-9:after {
+  background: -moz-linear-gradient(left, rgba(0,43,54,0) 0%, #002b36 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,43,54,0)), color-stop(50%, #002b36));
+  background: -webkit-linear-gradient(left, rgba(0,43,54,0) 0%, #002b36 50%);
+  background: -o-linear-gradient(left, rgba(0,43,54,0) 0%, #002b36 50%);
+  background: -ms-linear-gradient(left, rgba(0,43,54,0) 0%, #002b36 50%);
+  background: linear-gradient(to right, rgba(0,43,54,0) 0%, #002b36 50%);
+}
+.NS_projects__project_nav {
+  background-color: #002b36 !important;
+}
+.NS_projects__project_nav .tabbed-nav__link {
+  border-color: #002b36 !important;
+}
+.NS_projects__project_nav .tabbed-nav__link.is-active {
+  border-color: #094352 !important;
+}
+.NS_projects__project_nav .selected-indicator {
+  background: #094352;
+}
+.NS_campaigns__stats .icon-large {
+  fill: #839496;
+}
+body.posts .post_likes .namepile {
+  color: #93a1a1 !important;
+}
+#new_comment {
+  background-color: #073642 !important;
+}
+ol.list-comments .comment .main p {
+  color: #839496 !important;
+}
+.link-soft-black {
+  color: #839496 !important;
+}
+.section_footer-copyright .icon-large {
+  color: #839496 !important;
+  fill: #839496;
+}
 tr.Even {
   background-color: #073642 !important;
 }
@@ -1354,11 +1419,25 @@ div#page div#header a {
 div.md {
   color: #839496 !important;
 }
+div.md ul,
+div.md ol {
+  background-color: #002b36 !important;
+}
+div.md ul li:nth-child(odd),
+div.md ol li:nth-child(odd) {
+  background-color: #073642 !important;
+}
 body.comment {
   background-color: #002b36 !important;
 }
 .commentarea > .usertext {
   background-color: #002b36 !important;
+}
+.commentarea .usertext-body pre,
+.commentarea .usertext-body code,
+.commentarea .usertext-body p>code {
+  background-color: #073642 !important;
+  color: #839496 !important;
 }
 .commentarea .menuarea {
   background-color: #002b36 !important;

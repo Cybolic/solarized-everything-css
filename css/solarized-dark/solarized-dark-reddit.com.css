@@ -51,11 +51,25 @@ pre {
 div.md {
   color: #839496 !important;
 }
+div.md ul,
+div.md ol {
+  background-color: #002b36 !important;
+}
+div.md ul li:nth-child(odd),
+div.md ol li:nth-child(odd) {
+  background-color: #073642 !important;
+}
 body.comment {
   background-color: #002b36 !important;
 }
 .commentarea > .usertext {
   background-color: #002b36 !important;
+}
+.commentarea .usertext-body pre,
+.commentarea .usertext-body code,
+.commentarea .usertext-body p>code {
+  background-color: #073642 !important;
+  color: #839496 !important;
 }
 .commentarea .menuarea {
   background-color: #002b36 !important;
