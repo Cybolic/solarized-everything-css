@@ -1,0 +1,66 @@
+.soft-black,
+.navy-700
+    color()
+.fill-soft-black
+    color()
+    fill color-text !important
+
+.bg-white,
+.bg-grey-100
+    background-color()
+
+.grey-dark
+    color comment
+
+.responsive-media figcaption
+    color blue
+
+.grid-post
+    &__date,
+    &__content,
+    &__metadata
+        color()
+
+.featured-project__blurb
+    color blue
+
+    &.ratio-16-9:after
+        background -moz-linear-gradient(left, alpha(color-background, 0) 0%, color-background 50%)
+        background -webkit-gradient(linear, left top, right top, color-stop(0%, alpha(color-background, 0)), color-stop(50%, color-background))
+        background -webkit-linear-gradient(left, alpha(color-background, 0) 0%, color-background 50%)
+        background -o-linear-gradient(left, alpha(color-background, 0) 0%, color-background 50%)
+        background -ms-linear-gradient(left, alpha(color-background, 0) 0%, color-background 50%)
+        background linear-gradient(to right, alpha(color-background, 0) 0%, color-background 50%)
+
+.NS_projects__project_nav
+    background-color()
+
+    .tabbed-nav__link
+        border-color color-background
+
+        &.is-active
+            border-color color-background-highlight-extra-less
+    .selected-indicator
+        background color-background-highlight-extra-less
+
+.NS_campaigns__stats .icon-large
+    fill color-text
+
+body.posts
+    .post_likes
+        .namepile
+            color base1
+#new_comment
+    background-color highlight
+
+ol.list-comments
+    .comment
+        .main
+            p
+                color()
+
+.link-soft-black
+    color()
+.section_footer-copyright .icon-large
+    color()
+    fill color-text
