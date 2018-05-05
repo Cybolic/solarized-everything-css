@@ -125,9 +125,6 @@ div.thumbinner {
   background-color: #073642 !important;
   border-color: #094352 !important;
 }
-img {
-  filter: opacity(75%);
-}
 img.thumbimage {
   border-color: #094352 !important;
 }
