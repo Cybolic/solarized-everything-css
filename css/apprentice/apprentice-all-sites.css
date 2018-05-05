@@ -1066,6 +1066,11 @@ div.crp {
 #fbar {
   background-color: #272727 !important;
 }
+#main_content,
+.bg-white,
+.bg-grey-100 {
+  background-color: #262626 !important;
+}
 .soft-black,
 .navy-700 {
   color: #bcbcbc !important;
@@ -1073,10 +1078,6 @@ div.crp {
 .fill-soft-black {
   color: #bcbcbc !important;
   fill: #bcbcbc !important;
-}
-.bg-white,
-.bg-grey-100 {
-  background-color: #262626 !important;
 }
 .grey-dark {
   color: #585858 !important;

@@ -24,6 +24,11 @@ pre {
   background-color: #eee8d5 !important;
   color: #657b83 !important;
 }
+#main_content,
+.bg-white,
+.bg-grey-100 {
+  background-color: #fdf6e3 !important;
+}
 .soft-black,
 .navy-700 {
   color: #657b83 !important;
@@ -31,10 +36,6 @@ pre {
 .fill-soft-black {
   color: #657b83 !important;
   fill: #657b83 !important;
-}
-.bg-white,
-.bg-grey-100 {
-  background-color: #fdf6e3 !important;
 }
 .grey-dark {
   color: #93a1a1 !important;
